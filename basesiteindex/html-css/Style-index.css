@@ -14,7 +14,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-color: var(--white);
+    background-color: var(--black3);
 }
 a{
     display: block;
@@ -352,7 +352,7 @@ a{
     margin: 0 5px;
     padding-top: 30px;
     flex: 1 1 380px;   
-    background-image: url("../midia/GTR02-1-1.jpg");
+    background-image: url("../midia/GTR02-1-1\ teste.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center center;     
@@ -456,7 +456,7 @@ h3.lb-silhouette-r35{
     margin: 0 5px;
     padding-top: 30px;
     flex: 1 1 380px;   
-    background-image: url("../midia/Liberty-Walk-Nissan-Skyline-GTR-R34-Silhouette-01.jpg");
+    background-image: url("../midia/Liberty-Walk-Nissan-Skyline-GTR-R34-Silhouette-01\ teste.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center center;     
@@ -506,7 +506,7 @@ img.lb-silhouette-r34{
     height: 100%;
     margin: 0 5px;
     padding-top: 30px;
-    background-image: url("../midia/Nissan_Skyline_-_2F2F.webp");
+    background-image: url("../midia/Nissan_Skyline_-_2F2F\ teste1.png");
     background-repeat: no-repeat;
     background-size: 100%; 
     background-position: center center;   
