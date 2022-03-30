@@ -400,14 +400,14 @@ img.lb-type1-r35{
 /* Silhouette BodyKit */
 
 .lb-silhouette-div-r35{
-    flex: 1 1 380px;
     height: 100%;
     margin: 0 5px;
     padding-top: 30px;
+    flex: 1 1 380px;   
     background-image: url("../midia/_MG_5773\ teste.png");
     background-repeat: no-repeat;
-    background-size: 100%; 
-    background-position: center center;   
+    background-size: 100%;
+    background-position: center center;     
     display: flex;
     align-items: center;
     flex-direction: column;
