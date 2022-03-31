@@ -225,7 +225,24 @@ a.nav-cars{
 a.nav-cars:hover{
     opacity: 0.8;
 }
-
+.back{
+    list-style: none;
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 11px;
+    font-display: center;
+    display: block;   
+}
+.back::after{
+    content: ">";
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.back:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
 
 
 
