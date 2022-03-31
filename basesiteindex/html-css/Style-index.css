@@ -337,10 +337,10 @@ a{
 .products{
     width: 100%;
     margin-top: 10px;
-    display: flex;
+    display: contents;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;    
+    flex-wrap:wrap;    
 }
 
 /* Type1 BodyKit */
@@ -395,7 +395,23 @@ img.lb-type1-r35{
     width: 50%;
     opacity: 0;
 }
-
+.link-type1-r35{
+    display: block;
+    color: var(--blue);
+    position: relative;
+    opacity: 1;
+    transition: .5s ease;
+}
+.link-type1-r35::after{
+    content: ">";
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.link-type1-r35:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
 
 /* Silhouette BodyKit */
 
@@ -437,16 +453,22 @@ h3.lb-silhouette-r35{
     font-weight: normal;    
     letter-spacing: -0.5px;
 }
-
-/* Products n History*/
-
-.products-history{
-    width: 100%;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;    
+.link-silhouette-r35{
+    display: block;
+    color: black;
+    position: relative;
+    opacity: 1;
+    transition: .5s ease;
+}
+.link-silhouette-r35::after{
+    content: ">";
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.link-silhouette-r35:hover{
+    opacity: 0.8;
+    text-decoration: underline;
 }
 
 /* Nissan Skyline LB BodyKit */
@@ -498,6 +520,23 @@ img.lb-silhouette-r34{
     width: 50%;
     opacity: 0;
 }
+.link-silhouette-r34{
+    display: block;
+    color: black;
+    position: relative;
+    opacity: 1;
+    transition: .5s ease;
+}
+.link-silhouette-r34::after{
+    content: ">";
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.link-silhouette-r34:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
 
 /* Braia Skyline*/
 
@@ -546,4 +585,192 @@ h3.braia-r34-role{
     text-align: center;
     font-weight: normal;    
     letter-spacing: -1px;
+}
+.link-braia-r34{
+    display: block;
+    color: black;
+    position: relative;
+    opacity: 1;
+    transition: .5s ease;
+}
+.link-braia-r34::after{
+    content: ">";
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.link-braia-r34:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+@media (max-width:600px){
+    .products{
+        height: 60vh;
+        display: flex;
+        position: relative;
+        background-size: auto;        
+    }
+    .lb-type1-div-r35{        
+        background-image: url(../midia/Type1Phoneimg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;     
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    h3.lb-type1-r35{
+        color: black;
+        text-shadow: var(--white);
+        font-size: 18px;
+        text-align: center;
+        font-weight: normal;
+        text-shadow: #030303;    
+        letter-spacing: -1px;
+    }
+    h3.lb-type1-r35-role{
+        color: black;
+        text-shadow: var(--white);
+        font-size: 18px;
+        text-align: center;
+        font-weight: normal;    
+        letter-spacing: -1px;
+    }
+    .link-type1-r35{
+        display: block;
+        color: black;
+        position: relative;
+        opacity: 1;
+        transition: .5s ease;
+    }
+    .link-type1-r35::after{
+        content: ">";
+        position: absolute;
+        top: 0;
+        right: -15px;
+    }
+    .link-type1-r35:hover{
+        opacity: 0.8;
+        text-decoration: underline;
+    }
+}
+@media (max-width:600px){
+    .products{
+        height: 60vh;
+        display: flex;
+        position: relative;
+        background-size: auto;        
+    }
+    .lb-silhouette-div-r35{
+        background-image: url(../midia/lb\ silhouette\ Phone.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;     
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .link-silhouette-r35{
+        display: block;
+        color: var(--blue);
+        position: relative;
+        opacity: 1;
+        transition: .5s ease;
+    }
+    .link-silhouette-r35::after{
+        content: ">";
+        position: absolute;
+        top: 0;
+        right: -15px;
+    }
+    .link-silhouette-r35:hover{
+        opacity: 0.8;
+        text-decoration: underline;
+    }
+}   
+@media (max-width:600px){
+    .products{
+        height: 60vh;
+        display: flex;
+        position: relative;
+        background-size: auto;        
+    }
+    .lb-silhouette-div-r34{
+        background-image: url(../midia/R34PhoneImg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;     
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    h3.lb-silhouette-r34{
+        color: var(--white);
+        font-size: 18px;
+        text-align: center;
+        font-weight: normal;
+        text-shadow: var(--white);    
+        letter-spacing: -1px;
+    }
+    h3.lb-silhouette-r34-role{
+        color: var(--white);
+        text-shadow: var(--white);
+        font-size: 18px;
+        text-align: center;
+        font-weight: normal;    
+        letter-spacing: -1px;
+    }
+    .link-silhouette-r34{
+        display: block;
+        color: var(--blue);
+        position: relative;
+        opacity: 1;
+        transition: .5s ease;
+    }
+    .link-silhouette-r34::after{
+        content: ">";
+        position: absolute;
+        top: 0;
+        right: -15px;
+    }
+    .link-silhouette-r34:hover{
+        opacity: 0.8;
+        text-decoration: underline;
+    }
+}
+
+@media (max-width:600px){
+    .products{
+        height: 60vh;
+        display: flex;
+        position: relative;
+        background-size: auto;        
+    }
+.braia-div-r34{
+        background-image: url(../midia/BrayanPhoneImg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;     
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .link-braia-r34{
+        display: block;
+        color: var(--white);
+        position: relative;
+        opacity: 1;
+        transition: .5s ease;
+    }
+    .link-braia-r34::after{
+        content: ">";
+        position: absolute;
+        top: 0;
+        right: -15px;
+    }
+    .link-braia-r34:hover{
+        opacity: 0.8;
+        text-decoration: underline;
+    }
 }
