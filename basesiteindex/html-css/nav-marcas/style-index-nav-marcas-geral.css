@@ -225,6 +225,9 @@ a.nav-marcas{
 a.nav-marcas:hover{
     opacity: 0.8;
 }
+.nav-marcas-mobile{
+    display: none;
+}
 @media (max-width: 600px){
     .header-marcas{
         border-radius: 0px;
