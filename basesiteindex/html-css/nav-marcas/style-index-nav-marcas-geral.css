@@ -310,7 +310,7 @@ a.nav-marcas:hover{
     .nav-item-marcas-mobile{
         width: 100%;
         height: 1px;
-        margin: 8% 5.6rem;              
+        margin: 7% 5.6rem;              
     }        
 }
 @media (max-width: 375px){
