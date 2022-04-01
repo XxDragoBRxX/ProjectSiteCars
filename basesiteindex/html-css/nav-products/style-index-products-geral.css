@@ -323,7 +323,7 @@ a.nav-products:hover{
     .nav-list-products-mobile.active{
         top: -2500%;
         height: 100vh;
-        opacity: 0.5;
+        opacity: .5;
     }
     .nav-item-products-mobile{
         width: 100%;
@@ -365,7 +365,7 @@ a.nav-products:hover{
     .nav-list-products-mobile.active{
         top: -2500%;
         height: 100vh;
-        opacity: 0.5;
+        opacity: 1;
     }
     .nav-item-products-mobile{
         width: 100%;
