@@ -246,11 +246,12 @@ a.nav-cars:hover{
 .nav-cars-mobile{
     display: none;
 }
-@media (max-width: 600px){   
+@media (max-width: 600px){
     .header-cars{
-        border-radius: 0px;        
+        border-radius: 0px;
+        border-color: var(--gray);
         border-style: none;
-        backdrop-filter: blur(0px);
+        backdrop-filter: blur(0px);        
     }
     .nav-list-cars{
         display: none;
@@ -262,30 +263,156 @@ a.nav-cars:hover{
         justify-content: space-between;
     }
     .nav-list-cars-mobile{
-        width: 100%;
+        width: 68vh;
         height: 0vh;
         position: fixed;
-        top: -1100%;
+        top: 5px;
         z-index: 0;
-        background-color: #030303;
         list-style: none;
         display: flex;
         align-items: center;
-        margin: 0;
-        padding: 40px 30px;
+        margin: -5;
+        padding: 20px 30px;
         flex-direction: column;
-        opacity: .5;
+        opacity: 1;
         transition: 1s ease;        
     }
     .nav-list-cars-mobile.active{
-        top: 0;
+        top: -2500%;
         height: 100vh;
+        opacity: 0.5;
+    }
+    .nav-item-cars-mobile{
+        width: 100vh;
+        height: 5px;
+        margin: 5% 4vh;              
+    }    
+}
+@media (max-width: 425px){
+    .header-cars{
+        border-radius: 0px;
+        border-color: var(--gray);
+        border-style: none;
+        backdrop-filter: blur(0px);        
+    }
+    .nav-list-cars{
+        display: none;
+    }
+    .nav-cars-mobile{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-list-cars-mobile{
+        width: 49vh;
+        height: 100vh;
+        position: fixed;
+        top: 10px;
+        z-index: 0;        
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: -5px;
+        padding: 20px 30px;
+        flex-direction: column;
         opacity: 1;
+        transition: 1s ease;        
+    }
+    .nav-list-cars-mobile.active{
+        top: -2500%;
+        height: 100vh;
+        opacity: 0.5;
     }
     .nav-item-cars-mobile{
         width: 100%;
-        margin: 50px 40px;        
+        height: 1px;
+        margin: 5.2% 8vh;              
+    }        
+}
+@media (max-width: 375px){
+    .header-cars{
+        border-radius: 0px;
+        border-color: var(--gray);
+        border-style: none;
+        backdrop-filter: blur(0px);        
     }
+    .nav-list-cars{
+        display: none;
+    }
+    .nav-cars-mobile{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-list-cars-mobile{
+        width: 43.5vh;
+        height: 100vh;
+        position: fixed;
+        top: 15px;
+        z-index: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: -5;
+        padding: 20px 30px;
+        flex-direction: column;
+        opacity: 1;
+        transition: 1s ease;        
+    }
+    .nav-list-cars-mobile.active{
+        top: -2500%;
+        height: 100vh;
+        opacity: 0.5;
+    }
+    .nav-item-cars-mobile{
+        width: 100%;
+        height: 5px;
+        margin: 5.2% 5vh;              
+    }    
+}
+@media (max-width: 320px){
+    .header-cars{
+        border-radius: 0px;
+        border-color: var(--gray);
+        border-style: none;
+        backdrop-filter: blur(0px);        
+    }
+    .nav-list-cars{
+        display: none;
+    }
+    .nav-cars-mobile{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-list-cars-mobile{
+        width: 37.2vh;
+        height: 100vh;
+        position: fixed;
+        top: 15px;
+        z-index: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: -5;
+        padding: 20px 30px;
+        flex-direction: column;
+        opacity: 1;
+        transition: 1s ease;        
+    }
+    .nav-list-cars-mobile.active{
+        top: -2500%;
+        height: 100vh;
+        opacity: 0.5;
+    }
+    .nav-item-cars-mobile{
+        width: 100%;
+        height: 5px;
+        margin: 6.2% 5vh;              
+    }    
 }
 
 

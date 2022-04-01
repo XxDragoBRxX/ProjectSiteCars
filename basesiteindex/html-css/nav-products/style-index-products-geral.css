@@ -401,7 +401,7 @@ a.nav-products:hover{
         margin: -5;
         padding: 20px 30px;
         flex-direction: column;
-        opacity: .5;
+        opacity: 1;
         transition: 1s ease;        
     }
     .nav-list-products-mobile.active{
