@@ -243,6 +243,9 @@ a.nav-cars:hover{
     opacity: 0.8;
     text-decoration: underline;
 }
+.nav-cars-mobile{
+    display: none;
+}
 @media (max-width: 600px){   
     .header-cars{
         border-radius: 0px;        
