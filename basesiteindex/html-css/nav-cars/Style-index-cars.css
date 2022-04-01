@@ -243,11 +243,47 @@ a.nav-cars:hover{
     opacity: 0.8;
     text-decoration: underline;
 }
-
-
-
-
-
+@media (max-width: 600px){   
+    .header-cars{
+        border-radius: 0px;        
+        border-style: none;
+        backdrop-filter: blur(0px);
+    }
+    .nav-list-cars{
+        display: none;
+    }
+    .nav-cars-mobile{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-list-cars-mobile{
+        width: 100%;
+        height: 0vh;
+        position: fixed;
+        top: -1100%;
+        z-index: 0;
+        background-color: #030303;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 40px 30px;
+        flex-direction: column;
+        opacity: .5;
+        transition: 1s ease;        
+    }
+    .nav-list-cars-mobile.active{
+        top: 0;
+        height: 100vh;
+        opacity: 1;
+    }
+    .nav-item-cars-mobile{
+        width: 100%;
+        margin: 50px 40px;        
+    }
+}
 
 
 
