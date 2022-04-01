@@ -301,6 +301,11 @@ a.nav-marcas:hover{
         opacity: .5;
         transition: 1s ease;        
     }
+    .nav-list-marcas-mobile.active{
+        top: -2500%;
+        height: 100vh;
+        opacity: 0.5;
+    }
     .nav-item-marcas-mobile{
         width: 100%;
         height: 5px;
@@ -337,6 +342,11 @@ a.nav-marcas:hover{
         flex-direction: column;
         opacity: .5;
         transition: 1s ease;        
+    }
+    .nav-list-marcas-mobile.active{
+        top: -2500%;
+        height: 100vh;
+        opacity: 0.5;
     }
     .nav-item-marcas-mobile{
         width: 100%;
