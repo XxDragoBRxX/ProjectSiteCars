@@ -228,7 +228,49 @@ a.nav-marcas:hover{
 .nav-marcas-mobile{
     display: none;
 }
-@media (max-width: 600px){
+@media screen{
+    .header-marcas{
+        border-radius: 0px;
+        border-color: var(--gray);
+        border-style: none;
+        backdrop-filter: blur(0px);        
+    }
+    .nav-list-marcas{
+        display: none;
+    }
+    .nav-marcas-mobile{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-list-marcas-mobile{
+        width: 98%;
+        height: 100vh;
+        position: fixed;
+        top: 5px;
+        z-index: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: -5;
+        padding: 20px 30px;
+        flex-direction: column;
+        opacity: .5;
+        transition: 1s ease;        
+    }
+    .nav-list-marcas-mobile.active{
+        top: -2500%;
+        height: 100vh;
+        opacity: 0.5;
+    }
+    .nav-item-marcas-mobile{
+        width: 100%;
+        height: 5px;
+        margin: 6% 6%;              
+    }    
+}
+/* @media (max-width: 600px){
     .header-marcas{
         border-radius: 0px;
         border-color: var(--gray);
@@ -396,7 +438,7 @@ a.nav-marcas:hover{
         height: 5px;
         margin: 6.2% 5vh;              
     }    
-}
+} */
 
 
 /*GTR R35 2018*/
