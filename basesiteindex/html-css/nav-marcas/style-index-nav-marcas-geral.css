@@ -246,178 +246,9 @@ a.nav-marcas:hover{
     }
     .nav-list-marcas-mobile{
         width: 98%;
-        height: 100vh;
+        height: 100%;
         position: fixed;
-        top: 5px;
-        z-index: 0;
-        list-style: none;
-        display: flex;
-        align-items: center;
-        margin: -5;
-        padding: 20px 30px;
-        flex-direction: column;
-        opacity: .5;
-        transition: 1s ease;        
-    }
-    .nav-list-marcas-mobile.active{
-        top: -2500%;
-        height: 100vh;
-        opacity: 0.5;
-    }
-    .nav-item-marcas-mobile{
-        width: 100%;
-        height: 5px;
-        margin: 6% 6%;              
-    }    
-}
-/* @media (max-width: 600px){
-    .header-marcas{
-        border-radius: 0px;
-        border-color: var(--gray);
-        border-style: none;
-        backdrop-filter: blur(0px);        
-    }
-    .nav-list-marcas{
-        display: none;
-    }
-    .nav-marcas-mobile{
-        list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .nav-list-marcas-mobile{
-        width: 68vh;
-        height: 100vh;
-        position: fixed;
-        top: 5px;
-        z-index: 0;
-        list-style: none;
-        display: flex;
-        align-items: center;
-        margin: -5;
-        padding: 20px 30px;
-        flex-direction: column;
-        opacity: .5;
-        transition: 1s ease;        
-    }
-    .nav-list-marcas-mobile.active{
-        top: -2500%;
-        height: 100vh;
-        opacity: 0.5;
-    }
-    .nav-item-marcas-mobile{
-        width: 100%;
-        height: 5px;
-        margin: 3.2% 6vh;              
-    }    
-}
-
-@media (max-width: 425px){
-    .header-marcas{
-        border-radius: 0px;
-        border-color: var(--gray);
-        border-style: none;
-        backdrop-filter: blur(0px);        
-    }
-    .nav-list-marcas{
-        display: none;
-    }
-    .nav-marcas-mobile{
-        list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .nav-list-marcas-mobile{
-        width: 49vh;
-        height: 100vh;
-        position: fixed;
-        top: 10px;
-        z-index: 0;        
-        list-style: none;
-        display: flex;
-        align-items: center;
-        margin: -5px;
-        padding: 20px 30px;
-        flex-direction: column;
-        opacity: 1;
-        transition: 1s ease;        
-    }
-    .nav-list-marcas-mobile.active{
-        top: -2500%;
-        height: 100vh;
-        opacity: .5;
-    }
-    .nav-item-marcas-mobile{
-        width: 100%;
-        height: 1px;
-        margin: 5.2% 8vh;              
-    }        
-}
-@media (max-width: 375px){
-    .header-marcas{
-        border-radius: 0px;
-        border-color: var(--gray);
-        border-style: none;
-        backdrop-filter: blur(0px);        
-    }
-    .nav-list-marcas{
-        display: none;
-    }
-    .nav-marcas-mobile{
-        list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .nav-list-marcas-mobile{
-        width: 43.5vh;
-        height: 100vh;
-        position: fixed;
-        top: 15px;
-        z-index: 0;
-        list-style: none;
-        display: flex;
-        align-items: center;
-        margin: -5;
-        padding: 20px 30px;
-        flex-direction: column;
-        opacity: .5;
-        transition: 1s ease;        
-    }
-    .nav-list-marcas-mobile.active{
-        top: -2500%;
-        height: 100vh;
-        opacity: 1;
-    }
-    .nav-item-marcas-mobile{
-        width: 100%;
-        height: 5px;
-        margin: 5.2% 5vh;              
-    }    
-}
-@media (max-width: 320px){
-    .header-marcas{
-        border-radius: 0px;
-        border-color: var(--gray);
-        border-style: none;
-        backdrop-filter: blur(0px);        
-    }
-    .nav-list-marcas{
-        display: none;
-    }
-    .nav-marcas-mobile{
-        list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .nav-list-marcas-mobile{
-        width: 37.2vh;
-        height: 100vh;
-        position: fixed;
-        top: 15px;
+        top: 20%;
         z-index: 0;
         list-style: none;
         display: flex;
@@ -430,16 +261,15 @@ a.nav-marcas:hover{
     }
     .nav-list-marcas-mobile.active{
         top: -2500%;
-        height: 100vh;
+        height: 100%;
         opacity: 0.5;
     }
     .nav-item-marcas-mobile{
         width: 100%;
-        height: 5px;
-        margin: 6.2% 5vh;              
+        height: 5%;
+        margin: 7% 6%;              
     }    
-} */
-
+}
 
 /*GTR R35 2018*/
 

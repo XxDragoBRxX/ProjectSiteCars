@@ -228,25 +228,7 @@ a.nav-products:hover{
 .nav-products-mobile{
     display: none;
 }
-@media (max-width: 1024px){
-    .header-products{    
-    border-radius: 0.5px;
-    border-color: var(--gray);
-    border-style: double;
-    backdrop-filter: blur(20px);
-    z-index: 999;
-    width: 100%;
-    height: 60px;
-    top: 35px;
-    position: fixed;
-    }
-    .nav-products-container{
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 5px 0px;
-    }    
-} 
-@media (max-width: 600px){
+@media screen {
     .header-products{
         border-radius: 0px;
         border-color: var(--gray);
@@ -263,159 +245,31 @@ a.nav-products:hover{
         justify-content: space-between;
     }
     .nav-list-products-mobile{
-        width: 68vh;
-        height: 100vh;
+        width: 87.5%;
+        height: 0%;
         position: fixed;
-        top: 5px;
+        top: 35%;
         z-index: 0;
         list-style: none;
         display: flex;
         align-items: center;
         margin: -5;
-        padding: 20px 30px;
+        padding: 20px 20px;
         flex-direction: column;
-        opacity: .5;
+        opacity: 1;
         transition: 1s ease;        
     }
     .nav-list-products-mobile.active{
         top: -2500%;
-        height: 100vh;
+        height: 100%;
         opacity: 0.5;
     }
     .nav-item-products-mobile{
         width: 100%;
-        height: 5px;
-        margin: 3.2% 6vh;              
+        height: 5%;
+        margin: 4.5% 50%;              
     }    
 }
-
-@media (max-width: 425px){
-    .header-products{
-        border-radius: 0px;
-        border-color: var(--gray);
-        border-style: none;
-        backdrop-filter: blur(0px);        
-    }
-    .nav-list-products{
-        display: none;
-    }
-    .nav-products-mobile{
-        list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .nav-list-products-mobile{
-        width: 49vh;
-        height: 100vh;
-        position: fixed;
-        top: 10px;
-        z-index: 0;        
-        list-style: none;
-        display: flex;
-        align-items: center;
-        margin: -5px;
-        padding: 20px 30px;
-        flex-direction: column;
-        opacity: 1;
-        transition: 1s ease;        
-    }
-    .nav-list-products-mobile.active{
-        top: -2500%;
-        height: 100vh;
-        opacity: .5;
-    }
-    .nav-item-products-mobile{
-        width: 100%;
-        height: 1px;
-        margin: 5.2% 8vh;              
-    }        
-}
-@media (max-width: 375px){
-    .header-products{
-        border-radius: 0px;
-        border-color: var(--gray);
-        border-style: none;
-        backdrop-filter: blur(0px);        
-    }
-    .nav-list-products{
-        display: none;
-    }
-    .nav-products-mobile{
-        list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .nav-list-products-mobile{
-        width: 43.5vh;
-        height: 100vh;
-        position: fixed;
-        top: 15px;
-        z-index: 0;
-        list-style: none;
-        display: flex;
-        align-items: center;
-        margin: -5;
-        padding: 20px 30px;
-        flex-direction: column;
-        opacity: .5;
-        transition: 1s ease;        
-    }
-    .nav-list-products-mobile.active{
-        top: -2500%;
-        height: 100vh;
-        opacity: 1;
-    }
-    .nav-item-products-mobile{
-        width: 100%;
-        height: 5px;
-        margin: 5.2% 5vh;              
-    }    
-}
-@media (max-width: 320px){
-    .header-products{
-        border-radius: 0px;
-        border-color: var(--gray);
-        border-style: none;
-        backdrop-filter: blur(0px);        
-    }
-    .nav-list-products{
-        display: none;
-    }
-    .nav-products-mobile{
-        list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .nav-list-products-mobile{
-        width: 37.2vh;
-        height: 100vh;
-        position: fixed;
-        top: 15px;
-        z-index: 0;
-        list-style: none;
-        display: flex;
-        align-items: center;
-        margin: -5;
-        padding: 20px 30px;
-        flex-direction: column;
-        opacity: 1;
-        transition: 1s ease;        
-    }
-    .nav-list-products-mobile.active{
-        top: -2500%;
-        height: 100vh;
-        opacity: 0.5;
-    }
-    .nav-item-products-mobile{
-        width: 100%;
-        height: 5px;
-        margin: 6.2% 5vh;              
-    }    
-}
-
 
 /*GTR R35 2018*/
 
