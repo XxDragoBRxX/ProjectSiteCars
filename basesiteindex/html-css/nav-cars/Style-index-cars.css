@@ -247,7 +247,7 @@ a.nav-cars:hover{
 .nav-cars-mobile{
     display: none;
 }
-@media screen{
+@media (max-width: 600px){
     .header-cars{
         border-radius: 0px;
         border-color: var(--gray);

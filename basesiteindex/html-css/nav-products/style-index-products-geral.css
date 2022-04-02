@@ -228,7 +228,7 @@ a.nav-products:hover{
 .nav-products-mobile{
     display: none;
 }
-@media screen {
+@media (max-width: 600px){
     .header-products{
         border-radius: 0px;
         border-color: var(--gray);

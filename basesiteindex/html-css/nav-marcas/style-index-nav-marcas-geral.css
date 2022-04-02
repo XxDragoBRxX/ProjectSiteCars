@@ -228,7 +228,7 @@ a.nav-marcas:hover{
 .nav-marcas-mobile{
     display: none;
 }
-@media screen{
+@media (max-width: 600px){
     .header-marcas{
         border-radius: 0px;
         border-color: var(--gray);
