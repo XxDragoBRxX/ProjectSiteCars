@@ -191,7 +191,7 @@ a{
     position: relative;
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     padding-top: 30px;
     margin: 5px 0px;   
     align-items: center;  
@@ -206,9 +206,21 @@ a{
     justify-content: center;
     align-items: center;
     text-align: center;    
-    padding-top: 22%;
-    padding-left: 5%;
-    animation: animate 6s ease forwards;
+    padding-top: 25%;
+    padding-left: 12%;
+    animation: animate 12s ease forwards;
+}
+.links-text{
+    color: var(--gray);
+    z-index: 1;
+    padding-top: 30%;
+    position: flex;
+    justify-content: baseline;
+    width: 11.5%;    
+}
+.links-text h5{    
+    padding-left: 8%;
+    opacity: .5;
 }
 .title h1{
     font-size: 48px;
@@ -219,19 +231,21 @@ a{
     letter-spacing: -2px;
 }
 .link{
-    z-index: 999;
-    width: 5%;
-    padding-top: 46%;
+    z-index: 999;    
     color: var(--gray);
-    opacity: 1;
-    transition: .8s ease;    
+    opacity: .5;
+    transition: .5s ease;
+    padding-left: 50%;    
 }
 .link:hover{
-    opacity: .8;
+    opacity: 1;
     text-decoration: underline;
 }
 @keyframes animate{
     0%{
+        opacity: .5;
+    }
+    50%{
         opacity: 1;
     }    
     100%{
@@ -242,7 +256,8 @@ a{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: auto;
+    height: auto;
     animation: animate-video 2s ease forwards;    
 }
 @keyframes animate-video{

@@ -223,15 +223,18 @@ a{
     width: 5%;
     padding-top: 46%;
     color: var(--gray);
-    opacity: 1;
-    transition: .8s ease;    
+    opacity: .5;
+    transition: .8s ease;      
 }
 .link:hover{
-    opacity: .8;
+    opacity: 1;
     text-decoration: underline;
 }
 @keyframes animate{
     0%{
+        opacity: .5;
+    }
+    50%{
         opacity: 1;
     }    
     100%{
